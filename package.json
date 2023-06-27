@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start-with-clustering": "node src/index.js",
+    "start-without-clustering": "node src/without-clustering.js"
+  },
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.18.2"
+  }
+}
